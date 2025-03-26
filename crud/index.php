@@ -43,7 +43,7 @@ if (mysqli_num_rows($result) == 0) {
                             <img src='$value[picture]' class='card-img-top' alt='...'>
                             <div class='card-body'>
                                 <h5 class='card-title'>$value[name]</h5>
-                                <a href='#' class='btn btn-primary'>Go somewhere</a>
+                                <a href='details.php' class='btn btn-primary'>Go somewhere</a>
                             </div>
                         </div>";
     }
